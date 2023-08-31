@@ -32,8 +32,8 @@ const Users = () => {
     <div className="usersContainer">
       <Search value={inputText} />
       <div className="usersList">
-        {filteredProducts.map((user) => (
-          <div className="userCard" key={user.id}>
+        {filteredProducts.map((user,id) => (
+          <div className="userCard" key={id}>
             <FontAwesomeIcon icon={faUser} size="xl" />
             <h5>{user.email} </h5>
             <button onClick={() => deleteUSer(user.key)}> Delete</button>

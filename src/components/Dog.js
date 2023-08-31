@@ -1,14 +1,10 @@
-import React from 'react'
-import LeftList from './LeftList'
-import DogInside from './DogInside'
+import React from "react";
+import LeftList from "./LeftList";
 
 export default function Dog() {
   return (
-    <div  className='container'> 
-      <LeftList/>
-      {/* <DogInside/> */}
-
-
+    <div className="container">
+      <LeftList />
     </div>
-  )
+  );
 }

@@ -61,13 +61,20 @@ function Header() {
     const filterData = cartData.filter((item) => item.key !== key);
     setCartData(filterData);
   };
-  if(cartData.length!==0){
-    setTotalAmount(cartData.reduce((total, item) => {
-      const itemTotal = item.price *item.count;
-      return total + itemTotal;
-    }, 0))
-  }
+  useEffect(() => {
+    if (cartData.length !== 0) {
+      const newTotalAmount = cartData.reduce((total, item) => {
+        const itemTotal = item.price * item.count;
+        return total + itemTotal;
+      }, 0);
+
+      setTotalAmount(newTotalAmount);
+    }
+  }, [cartData]);
  
+// if(!login){
+//   setCartData({})
+// }
 
   const handleCartbtn = () => {
     if (!login) {
@@ -185,7 +192,7 @@ function Header() {
             <p>Your Cart Is Empty {currentUser}</p>
           ) : (
             cartData.map((item) => (
-              <div className="cart_item_container">
+              <div className="cart_item_container" key={item.key}>
                 <img src={item.image} alt="img" />
                 <p>{item.name}</p>
                 <h5>{(Number(item.price) * cartCount).toFixed(2)}</h5>
@@ -258,7 +265,7 @@ function Header() {
       <div>
         <div className="searchResults">
           {filteredProducts.map((item, idx) => (
-            <div className="card-container" key={item.key}>
+            <div className="card-container" key={idx}>
               <h4 className="title">{item.title}</h4>
               <img src={item.src} alt="cardImage" />
               <p className="card-description">{item.productName}</p>

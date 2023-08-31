@@ -53,8 +53,8 @@ function ProductView({ count, setCount, setCartData }) {
   const { login, cartData } = useContext(MyContexts);
 console.log(currentDatas);
   return (
-    <>
-      {currentDatas.map((item, idx) => {
+    <div>
+      {currentDatas.map((item,index) => {
         const price = item.actualPrice;
         console.log(price);
         const total = (price * count).toFixed(2);
@@ -62,11 +62,11 @@ console.log(currentDatas);
      
 
         return (
-          <>
-            <div className="ProductView" >
+          <div key={index}>
+            <div className="ProductView">
               <div className="list-images">
                 <ul>
-                  <li> <img src={item.src} alt="img" onClick={()=>setImage(item.src)} key={item.key}/> </li>
+                  <li> <img src={item.src} alt="img" onClick={()=>setImage(item.src)}/> </li>
                   {amp.map((item,index) => (
                     <li key={index}>
                       <img src={item} alt="img" onClick={()=>setImage(item)}/>
@@ -83,8 +83,8 @@ console.log(currentDatas);
                 <h2>{item.price}</h2>
                 <p>{item.size}</p>
 
-                {item.productDescription.map((dis) => (
-                  <p>
+                {item.productDescription.map((dis,idx) => (
+                  <p key={idx}>
                     <FontAwesomeIcon
                       icon={faCircleCheck}
                       size="sm"
@@ -149,10 +149,10 @@ console.log(currentDatas);
                 <p>Delivery on orders over £45</p>
               </div>
             </div>
-          </>
+          </div>
         );
       })}
-    </>
+    </div>
   );
 }
 

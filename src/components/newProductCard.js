@@ -11,7 +11,7 @@ function NewProductCard({data}) {
   data.map((item,idx)=>{
       
     return (
-      <div className='card-container' key={item.key}>
+      <div className='card-container' key={idx}>
       <h4 className='title'>{item.title}</h4>
       <img src={item.src} alt='cardImage'/>
       <p className='card-discripion'>{item.productName}</p>

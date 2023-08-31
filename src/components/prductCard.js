@@ -6,11 +6,11 @@ function ProductCard({data}) {
   
   return (
 
-<div className='container1'>{
+<div className='container1 '>{
   data.map((item,idx)=>{
       
     return (
-      <div className='card-container' key={item.id}>
+      <div className='card-container' key={idx}>
       <h4 className='title'>{item.title}</h4>
       <img src={item.src} alt='cardImage'/>
       <p className='card-discripion'>{item.discription}</p>
