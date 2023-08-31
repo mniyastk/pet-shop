@@ -1,0 +1,10 @@
+.cartss{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    position: absolute;
+    z-index: 9999;
+    top: 200px;
+    right: 20px;
+  }
+  

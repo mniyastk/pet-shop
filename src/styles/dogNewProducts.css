@@ -1,0 +1,27 @@
+.ndp-container{
+    display: flex;
+    position: relative;
+    left: 30px;
+    top: 350px;
+    z-index: 500;
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 750px;
+}
+.img-intro{
+    width: 1000px;
+    height: 180px;
+    /* z-index: 500; */
+
+}
+.newProducts{
+    display: flex;
+    background-color: white;
+    /* z-index: 500; */
+
+}
+.top-part{
+    background-color: white;
+    /* z-index: 500; */
+
+}

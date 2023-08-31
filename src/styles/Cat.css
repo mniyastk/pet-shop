@@ -1,0 +1,11 @@
+.catContainer{
+    position: relative;
+    top: -50px;
+}
+.line{
+
+    width: 1000px;
+    position:relative;
+    left: -200px;
+
+}

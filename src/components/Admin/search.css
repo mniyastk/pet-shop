@@ -1,0 +1,16 @@
+.search{
+    width: 742px;
+height: 40px;
+top: 41px;
+left :170px;
+border-radius: 18px;
+border: 1px;
+position: relative;
+
+}
+.search>form>input{
+    width: 742px;
+height: 40px;
+border-radius: 18px;
+border: 1px;
+}

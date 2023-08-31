@@ -1,0 +1,104 @@
+.dog-image-discript {
+  height: 250px;
+  background-color: rgb(240, 230, 220);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.dog-image-discript > img {
+  width: 250px;
+  height: 250px;
+}
+
+.text-container > h1 {
+  font-family: "Galdeano", sans-serif;
+  font-size: 50px;
+}
+.text-container > p {
+  text-transform: uppercase;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+/* .main-body {
+
+ 
+} */
+.left-list {
+  width: 350px;
+  /* background-color: aqua; */
+  height: 200vh;
+}
+.right-main {
+  /* background-color: blueviolet; */
+  width: 1000px;
+  height: 200vh;
+}
+.left-list > nav > ul > li {
+  list-style: none;
+  position: relative;
+  left: 50px;
+}
+.left-list > nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+.left-list > h2 {
+  color: rgb(5, 112, 5);
+  padding-left: 40px;
+}
+.left-list > nav > ul > hr {
+  width: 220px;
+  position: relative;
+  left: -8px;
+
+}
+.check-these-out {
+  background: rgb(237, 243, 239);
+  width: 1000px;
+  height: 530px;
+  margin-top: 40px;
+  
+
+}
+.currentOffers{
+  width: 1060px;
+}
+.currentOffers > img {
+  width: 190px;
+  height: 400px;
+  margin: 20px;
+  margin-left: 0;
+}
+.paw {
+  color: darkgreen;
+}
+.highlightes{
+  width: 1060px;
+}
+.highlightes > img {
+  width: 320px;
+  height: 300px;
+  margin: 20px;
+  margin-left: 0;
+
+}
+.check-these-out>div {
+display: flex;
+
+flex-wrap: nowrap;
+
+}
+.main-container{
+position: relative;
+width: 1000px;
+top: -650px;
+left: 300px;
+}
+.dog-catogory{
+
+  width: 1000px;
+  position: relative;
+  
+}

@@ -1,0 +1,77 @@
+.homeContainer {
+  width: 1340px;
+  height: 600px;
+
+ 
+}
+.left-part {
+  width: 255px;
+  height: 1024px;
+  background: #363740;
+  color: aliceblue;
+}
+.top-part {
+  width: 1100px;
+  height: 100px;
+  left: 255px;
+  padding: 10px 0px 10px;
+  border: 0px 0px 1px 0px;
+  gap: 10px;
+  background-color: aliceblue;
+top: -1025px;
+
+  position: relative;
+}
+.left-part > h1 {
+  width: 121px;
+  height: 52px;
+  top: 39px;
+  left: 67px;
+  font-family: Product Sans;
+  line-height: 53px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  position: relative;
+}
+.right-part {
+
+  background-color: brown;
+}
+.left-part > ul {
+  width: 255px;
+  height: 224px;
+  top: 50px;
+  position: relative;
+  left: 80px;
+  list-style: none;
+
+}
+.left-part > ul >a> li {
+  /* text-align: center; */
+  padding-left: 5px;
+  height: 56px;
+  width: 155px;
+
+}
+
+.left-part > ul >a> li > span {
+  padding-right: 10px;
+}
+.left-part > ul > li:hover {
+  cursor: pointer;
+}
+.top-part>h1{
+text-align: center;
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+  
+
+}
+
+.homeIcon{
+  position: absolute;
+  left: 20px;
+  top: 80px;
+}

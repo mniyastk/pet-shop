@@ -1,0 +1,188 @@
+body{
+    font-family:   "Philosopher", sans-serif; 
+}
+
+.h-top-list > ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* background: greenyellow; */
+  height: 50px;
+  margin: 0%;
+}
+.h-top-list > ul > li {
+  padding-right: 30px;
+}
+.h-top-list > ul > li > a {
+  color: black;
+  text-decoration: none;
+  font-family: "Philosopher", sans-serif;
+  font-weight: bold;
+}
+.h-bot-part {
+  height: 150px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.search-box {
+  width: 600px;
+  height: 35px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid;
+  border-color: black;
+}
+.search-box > input {
+  width: 600px;
+  height: 30px;
+
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: none;
+}
+.h-bot-part >a> img {
+  width: 120px;
+  height: 120px;
+}
+.btn-log-in {
+  border-radius: 25px;
+  height: 35px;
+  width: 150px;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+  font-weight: bolder;
+}
+.btn-cart {
+  border-radius: 25px;
+  height: 35px;
+  width: 150px;
+  border: 1px solid;
+  font-weight: bolder;
+
+}
+.search-box > input:focus {
+  outline: none;
+}
+.catogory>nav>ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  list-style: none;
+
+
+    
+}
+.catogory>nav>ul>li>a{
+    text-decoration:none;
+    color: black;
+
+}
+.cart{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 150px;
+  right: 30px;
+  background-color:white;
+  width: 400px;
+  
+z-index: 5;
+border: 1px solid rgb(56, 53, 53);
+align-content: space-between;
+
+}
+.nocart{
+  display: none;
+}
+.searchResults{
+ display: flex;
+ flex-wrap: wrap;
+ /* position: absolute; */
+ /* z-index: 15; */
+ background-color: white;
+}
+.user{
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  background-color: rgb(223, 208, 208);
+  top: 150px;
+  right: 250px;
+  border: 1px solid rgb(41, 39, 39);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  border-radius: 10px;
+
+}
+.btn-sgn{
+  border-radius: 25px;
+width: 100px;
+height: 25px;
+
+}
+.cart_item_container{
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+  margin: 3px;
+  border:1px solid black;
+  border-radius: 10px;
+align-items: center;
+}
+.cart_item_container>img{
+
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.cart_item_container>p{
+
+  font-size: x-small;
+  padding: 0;
+  height: 60px;
+  overflow: hidden;
+  margin: 0%;
+  width: 100px;
+}
+.no{
+  display: none;
+}
+.btns{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-around;
+  height: 150px;
+}
+.btns>button{
+  position: relative;
+    left: 50px;
+    width: 350px;
+    height: 40px;
+    font-weight: bolder;
+    border-radius: 25px 25px 25px 25px;
+    background-color: rgb(93, 146, 192);
+    color: white;
+    border: none;
+    
+}
+.btns>button:hover{
+
+  cursor: pointer;
+   background-color:rgb(34, 102, 139) ;
+}

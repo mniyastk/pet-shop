@@ -1,0 +1,79 @@
+.IndexContainer>ul>li>img{
+
+    width: 100px;
+    height: 100px;
+
+}
+.IndexContainer>ul>li>h3{
+    text-align: center;
+}
+.imagesBox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:0 50px 0 50px ;
+}
+.imagesBox>img{
+
+    width: 407px;
+    height: 208px;
+}
+.timages>img{
+    width: 410px;
+    height: 210px;
+}
+.timages{
+    display: flex;
+    justify-content: space-around;
+    margin:0 50px 0 50px ;
+
+}
+.tipImageContainer{
+    display: flex;
+   
+    flex-wrap:nowrap;
+    margin: 20px;
+
+}
+.tips{
+    width: 451px;
+    height: 751px;
+    background-color: rgb(75,168,64);
+    color: azure;
+}
+.tips>img{
+
+    transform: scale(2,3);
+    position: relative;
+    bottom: -320px;
+    left: 120px;
+}
+.latestUpdates{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imageCards{
+    display: flex;
+    width: 780px;
+    height: 745px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.imageCards>div{
+    height: fit-content;
+}
+.imageCards>div>img{
+    
+    width: 250px;
+    height: 260px;
+}
+.imageCards>div>p{
+    color: rgb(75,168,64);
+}
+.headings{
+    color: rgb(75,168,64);
+}
+.tip{
+    color: bisque;
+}

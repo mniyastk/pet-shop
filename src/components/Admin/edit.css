@@ -1,0 +1,78 @@
+.editProduct{
+width: 1100px;
+
+    height: 600px;
+    background-color: rgb(233, 243, 243);
+    position:relative;
+    top: -235px;
+  left: 255px;
+    display: flex;
+    flex-direction: row;
+  
+
+}
+.editProduct>img{
+  position: relative;
+  width: 450px;
+  height: 500px;
+  left: 25px;
+  top: 75px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.editProduct>form{
+    position: relative;
+    top: 100px;
+
+margin: 0%;
+    color: black;
+}
+.editProduct>form>div>div>input{
+    width: 400px;
+    height: 30px;
+ 
+   
+    border-radius: 15px;
+border:1px solid gray;
+    
+
+}
+.editProduct>form>div>div>label{
+    color:black ;
+    position: relative;
+
+}
+.updateProduct{
+    position: relative;
+    right: -150px;
+    border-radius: 25px;
+    border: 1px solid brown;
+    width: max-content;
+    padding: 5px;
+  
+    background-color: green;
+    top: 50px;
+  
+
+}
+.updateProduct:hover{
+    
+    cursor: pointer;
+    background-color: rgb(35, 164, 6);
+}
+.formContainer{
+    width: 550px;
+    display: flex;
+    position: relative;
+   margin-left: 50px;
+    justify-content: space-between;
+
+}
+.labelContainer{
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    position: relative;
+}

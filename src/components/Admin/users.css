@@ -1,0 +1,53 @@
+.usersContainer {
+  background-color: #eaecf0;
+  width: 1100px;
+  height: 905px;
+  top: -215px;
+  left: 255px;
+  position: relative;
+}
+.usersList {
+  width: 1034px;
+  height: 704px;
+  top: 70px;
+  left: 35px;
+  background-color: white;
+  position: relative;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-content:flex-start ;
+  overflow-y: auto;
+}
+.userCard {
+  background-color: rgb(170, 210, 210);
+  display: flex;
+  width: 980px;
+  height: 50px;
+  justify-content: space-between;
+  margin: 15px;
+  align-items: center;
+  padding-left: 25px;
+  color: rgb(47, 43, 43);
+  border-radius: 10px;
+  margin-bottom: 0%;
+}
+.userCard > h5 {
+  color: black;
+}
+
+.userCard >button {
+  margin-right: 50px;  
+border-radius: 25px;
+border: none;
+background-color: rgb(245, 115, 115);
+width: 80px;
+padding: 5px;
+}
+.userCard >button:hover{
+
+   cursor: pointer;
+   background-color: rgb(249, 37, 37);
+
+
+}

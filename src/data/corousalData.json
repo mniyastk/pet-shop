@@ -1,0 +1,54 @@
+{
+    "slides":[
+        {
+            "src":"https://cdn.media.amplience.net/i/petsathome/so-slider-25-3peaks-dt-v3/.webp?w=2000&",
+            "alt":"img 1 corousal"
+           
+        },
+        {
+            "src":"https://cdn.media.amplience.net/i/petsathome/dog-sldr-ww-freezedried-dt/.webp?w=2000&",
+            "alt":"img 2 corousal"
+           
+        },
+        {
+            "src":"https://cdn.media.amplience.net/i/petsathome/dept-sldr-fleaandworm-supplier-dt/.webp?w=2000&",
+            "alt":"img 3 corousal"
+           
+        },
+        {
+            "src":"https://cdn.media.amplience.net/i/petsathome/dept-slider-new-puppy-range-dt-v2/.webp?w=2000&",
+            "alt":"img 4 corousal"
+           
+        }
+    ],
+    "cats":[
+        {
+            "src":"https://cdn.media.amplience.net/i/petsathome/dept-slider-fiprotec-dt/.webp?w=2000&",
+            "alt":"1"
+        },
+        {
+            "src":"https://cdn.media.amplience.net/i/petsathome/dept-sldr-paydaydeals-august23-dtv2/.webp?w=1600&",
+            "alt":"2"
+        },
+        {
+            "src":"https://cdn.media.amplience.net/i/petsathome/cat-sldr-newcatfood-v3-dt_1/.webp?w=2000&",
+            "alt":"3"
+        },
+        {
+            "src":"https://cdn.media.amplience.net/i/petsathome/easy-repeat-refresh-dept-slider-dt/.webp?w=1200&",
+            "alt":"4"
+        }
+    ],
+    "home":[
+        {
+            "src":"https://cdn.media.amplience.net/i/petsathome/hp-sldr-paydaydeals-august23-dtv2?w=3000&",
+            "alt":"q"
+
+        },
+        {
+            "src":"https://cdn.media.amplience.net/i/petsathome/hp-sldr-paydaydeals-august23-dtv2?w=3000&",
+            "alt":"w"
+
+        }
+    ]
+}

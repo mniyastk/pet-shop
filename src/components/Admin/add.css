@@ -1,0 +1,46 @@
+.addContainer{
+    width: 1100px;
+    height:910px;
+    position: relative;
+    left: 255px;
+    top: -200px;
+    background-color: rgb(164, 175, 183);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerContainer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    width: 85%;
+    height: 65%;
+    border-radius: 15px;
+    background-color: rgb(120, 133, 135);
+}
+.innerContainer>img{
+    width: 30%;
+    height: 50%;
+    border-radius: 10px;
+
+}
+.innerContainer>div>form>input{
+    border-radius: 20px;
+    border: 1px solid grey;
+    height: 25px;
+    width: 250px;
+}
+.addBtn{
+    background-color: rgb(25, 90, 5);
+    border-radius: 15px;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    position: relative;
+    top: 25px;
+    right: -150px;
+}
+.addBtn:hover{
+    background-color: rgb(26, 101, 24);
+    cursor: pointer;
+}

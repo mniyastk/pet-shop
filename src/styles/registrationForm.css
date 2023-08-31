@@ -1,0 +1,37 @@
+.reg-container{
+    display: flex;
+    flex-direction: column;
+
+     align-items: center;
+    height: 100vh;
+}
+img{
+    width: 200px;
+    height: 150px;
+}
+.formDiv{
+    height: 650px;
+    width: 630px;
+    /* background-color: aqua; */
+  
+}
+.formDiv>form>h2{
+text-align: center;
+
+    
+}
+form{
+    margin-left:50px ;
+}
+.ca-btn{
+position: relative;
+left: 80px;
+width: 350px;
+height: 50px;
+font-weight: bolder;
+border-radius: 25px 25px 25px 25px;
+}
+ .big-box{
+    width: 470px;
+    height: 50px;
+}

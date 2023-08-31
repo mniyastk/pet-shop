@@ -1,0 +1,56 @@
+.reg-container{
+    display: flex;
+    flex-direction: column;
+
+     align-items: center;
+    height: 100vh;
+    font-family:   "Philosopher", sans-serif; 
+   
+}
+img{
+    width: 200px;
+    height: 150px;
+}
+.formDiv{
+    height: 650px;
+    width: 630px;
+    border-color:  1 px solid red;
+
+}
+.formDiv>form>h2{
+text-align: center;
+
+    
+}
+form{
+    margin-left:50px ;
+
+}
+.big-box{
+    width: 470px;
+    height: 50px;
+}
+.login-btn{
+    position: relative;
+    left: 80px;
+    width: 350px;
+    height: 50px;
+    font-weight: bolder;
+    border-radius: 25px 25px 25px 25px;
+    background-color: green;
+    color: white;
+    border: none;
+
+    }
+    .login-btn:hover{
+        cursor: pointer;
+    }
+    .admin{
+
+        border: 1px solid grey;
+        padding:0 10px 0 10px;
+    }
+    .admin:hover{
+
+        cursor: pointer;
+    }

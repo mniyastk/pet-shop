@@ -1,0 +1,36 @@
+.products {
+  background-color: #eaecf0;
+  width: 1185px;
+  height: 905px;
+  top: -215px;
+  left: 255px;
+  position: relative;
+}
+.usersList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: black;
+overflow: scroll;
+}
+.usersList>div>.btn1{
+  position: relative;
+  right: -120px;
+}
+.usersList>div>.btn1,.btn2{
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid rgb(115, 105, 105);
+}
+.btn2:hover{
+
+  cursor: pointer;
+  background-color: rgb(51, 132, 34);
+
+}
+.btn1:hover{
+
+  cursor: pointer;
+background-color: rgb(223, 15, 15);
+
+}
