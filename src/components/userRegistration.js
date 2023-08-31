@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 import "../styles/registrationForm.css";
 import { useState, useContext } from "react";
@@ -8,7 +8,7 @@ import { MyContexts } from "./myContext";
 
 function UserRegistration() {
   const { setUserData, userData } = useContext(MyContexts);
-  const history = useNavigate();
+  // const history = useNavigate();
   console.log(userData);
 
   const initialValue = {
@@ -18,14 +18,14 @@ function UserRegistration() {
   };
   const [formValues, setFormValues] = useState(initialValue);
   const [errors, setErrors] = useState({});
-  const [isSubmit, setIsSubmit] = useState(false);
+  // const [isSubmit, setIsSubmit] = useState(false);
   useEffect(() => {
-    console.log(errors);
-    if (Object.keys(errors).length === 0 && isSubmit) {
-      console.log(formValues);
+   
+    if (Object.keys(errors).length === 0) {
+      // console.log(formValues);
     }
-  }, [errors, formValues, isSubmit]);
-
+  }, [errors, formValues]);
+console.log(formValues);
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormValues({ ...formValues, [name]: value });
@@ -34,23 +34,23 @@ function UserRegistration() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setErrors(validate(formValues));
-    setIsSubmit(true);
+    // setIsSubmit(true);
   };
-
+console.log(errors);
   const handleClick = () => {
 
-   
-    if (errors.length === 0) {
-      setUserData((prev) => [
-        ...prev,
-        {
-          email: formValues.email,
-          password: formValues.password,
-          key: formValues.confPass,
-        },
-      ]);
-      history("/login");
-    }
+    setUserData((prev) => [
+      ...prev,
+      {
+        email: formValues.email,
+        password: formValues.password,
+        key: formValues.confPass,
+      },
+    ]);
+    // if (errors.length === 0) {
+     
+    //   // history("/login");
+    // }
   };
 
   const validate = (values) => {

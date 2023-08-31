@@ -1,7 +1,7 @@
 import React from "react";
 
 import '../styles/dogNewProducts.css'
-// import ProductCard from "../components/prductCard";
+
 import NewProductCard from "../components/newProductCard";
 import { useContext } from "react";
 import { MyContexts } from "./myContext";

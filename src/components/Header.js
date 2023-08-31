@@ -10,7 +10,7 @@ import {
   faCirclePlus,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link, useNavigate } from "react-router-dom";
-// import data from "../data/newDogProduct.json";
+
 import { MyContexts } from "./myContext";
 function Header() {
   const history = useNavigate();
@@ -48,14 +48,14 @@ function Header() {
     }
   }, [searchText,currentData]);
 
-  useEffect(() => {
-    const filterData = cartData.filter(
-      (item, index, self) =>
-        index ===
-        self.findIndex((obj) => obj.id === item.id && obj.name === item.name)
-    );
-    setCartData(filterData);
-  }, [cartData.length]);
+  // useEffect(() => {
+  //   const filterData = cartData.filter(
+  //     (item, index, self) =>
+  //       index ===
+  //       self.findIndex((obj) => obj.id === item.id && obj.name === item.name)
+  //   );
+  //   setCartData(filterData);
+  // }, []);
 
   const removeItem = (key) => {
     const filterData = cartData.filter((item) => item.key !== key);
@@ -70,11 +70,9 @@ function Header() {
 
       setTotalAmount(newTotalAmount);
     }
-  }, [cartData]);
+  }, [cartData, setTotalAmount]);
  
-// if(!login){
-//   setCartData({})
-// }
+
 
   const handleCartbtn = () => {
     if (!login) {

@@ -1,15 +1,9 @@
 import "./App.css";
-
 import DogInside from "./components/DogInside";
-// import UserLogin from './components/userLogin';
-
 import Error from "./components/Error";
-import Header from "./components/Header";
-import LeftList from "./components/LeftList";
-// import LeftList from './components/LeftList';
 import DogNewProducts from "./components/dogNewProducts";
 import ProductView from "./components/productView";
-import Puppy from "./components/pupy";
+
 
 import UserLogin from "./components/userLogin";
 import { Routes, Route } from "react-router-dom";
